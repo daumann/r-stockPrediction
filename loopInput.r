@@ -1095,3 +1095,5 @@ read.table("./input/ZQK.csv", sep=",", header=TRUE))
    BestPrediction[i] = findBestPrediction(stockVector2[[i]] ) ;
    cat("\n*** predicting stock number: ",i) ;
 }
+
+cat("\n\n!!! winning models:", BestPrediction);
