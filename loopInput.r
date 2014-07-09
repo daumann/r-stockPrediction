@@ -3,8 +3,6 @@
 stockVector = list()
 BestPrediction = vector()
 
-# Please replace the folder addresse with yours
-
 stockVector2 = list(read.table("./input/A.csv", sep=",", header=TRUE),
 read.table("./input/AA.csv", sep=",", header=TRUE),
 read.table("./input/AAN.csv", sep=",", header=TRUE),
